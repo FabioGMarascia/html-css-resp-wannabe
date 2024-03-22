@@ -128,12 +128,21 @@ img {
     SOLUZIONE RESPONSIVE
  ************************************************/
 
+/* BONUS(Che in questo caso fa diventare superflua la mediaquery 768px) */
+@media screen and (max-width: 1160px) {
+  .container {
+    width: 100%;
+  }
+}
+
+/* SCHERMI DA 768 IN GIÙ */
 @media screen and (max-width: 768px) {
   .container {
     width: 100%;
   }
 }
 
+/* SCHERMI DA 480 IN GIÙ */
 @media screen and (max-width: 480px) {
   /* LAYOUT */
   .row {
